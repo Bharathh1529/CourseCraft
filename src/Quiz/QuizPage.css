@@ -1,0 +1,38 @@
+/* QuizPage.css */
+.quiz-page {
+    padding: 20px;
+    background-color: #1F1F2D;
+    color: #EDEDED;
+}
+
+.question {
+    background-color: #2B2B3A;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.question p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.question ul {
+    list-style: none;
+    padding: 0;
+}
+
+.question li {
+    background-color: #2B2B3A;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 5px;
+    color: #EDEDED;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.question li:hover {
+    background-color: #007bff;
+}

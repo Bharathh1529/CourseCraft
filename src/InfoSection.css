@@ -1,0 +1,48 @@
+.Info{
+    background-color: #f0f2f5;
+}
+
+.why-it-works {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.why-it-works h2 {
+    font-size: 2rem;
+    color: #31304D;
+    margin-bottom: 20px;
+}
+
+/* Flex container for the info boxes */
+.info-section {
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for each info box */
+.info-box {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.info-box img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.info-box h3 {
+    font-size: 1.5rem;
+    color: #31304D;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}

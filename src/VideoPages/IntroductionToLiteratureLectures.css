@@ -1,0 +1,77 @@
+/* Main container for the entire page */
+.literature-lectures-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 60px;
+  }
+  
+  /* Container for the main content area (sidebar + video section) */
+  .literature-lectures-main-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Sidebar styling */
+  .literature-lectures-sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+  }
+  
+  /* Course outline styling */
+  .literature-lectures-course-outline {
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  .literature-lectures-course-outline h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* List styling for course outline */
+  .literature-lectures-course-outline ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .literature-lectures-course-outline li {
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .literature-lectures-course-outline li:hover,
+  .literature-lectures-course-outline li.active {
+    background-color: #ddd;
+  }
+  
+  /* Video section styling */
+  .literature-lectures-section {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .literature-lectures-video-container {
+    width: 100%;
+    height: 450px; /* Adjust height based on your design requirements */
+    margin-bottom: 20px;
+  }
+  
+  .literature-lectures-video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove iframe border */
+  }
+  
+  /* Video description styling */
+  .literature-lectures-description {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,59 @@
+.testimonial-card {
+    background-color: #f0f2f5; /* White background */
+    border-radius: 10px;
+     margin: 20px auto; /* Center align */
+    overflow: hidden;
+    max-width: 800px; /* Keep it consistent with the layout */
+    padding: 20px 40px; /* Increase padding for better spacing */
+    font-family: Arial, sans-serif;
+    color: #31304D; /* Matches the color theme */
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 1.5rem; /* Matches the section heading */
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.testimonial-author-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #31304D; /* Matching the theme color */
+}
+
+.author-name {
+    font-size: 1.2rem; /* Slightly larger for prominence */
+    font-weight: bold;
+    color: #31304D;
+}
+
+.author-location {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Section heading styles */
+h1 {
+    font-size: 2rem; /* Matches the "Why Learnify Works" heading */
+    color: #31304D;
+    margin-bottom: 20px;
+    text-align: center;
+}

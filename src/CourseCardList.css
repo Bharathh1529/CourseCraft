@@ -1,0 +1,45 @@
+.course-card-list-container {
+    background-color: white;
+    color: white;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #2B2B3A;
+    color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-bar input::placeholder {
+    color: #A5A5A5;
+}
+
+.search-bar input:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.course-card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.course-card-list p {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #A5A5A5;
+}

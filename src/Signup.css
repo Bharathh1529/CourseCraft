@@ -1,0 +1,135 @@
+/* Overall page styling */
+.signup-page {
+    display: flex;
+    height: 90vh;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    border: 1px solid white;
+    margin-top: 70px;
+}
+
+/* Form section */
+.signup-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form p {
+    font-size: 2rem;
+    color: #31304D;
+    margin-bottom: 30px;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+    font-size: 1.2rem;
+    color: #31304D;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form label span {
+    color: red;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.form input {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form input:focus {
+    border-color: #0056b3;
+}
+
+.form button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #004494;
+}
+
+.form .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-footer a {
+    color: #0056b3;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Image section */
+.signup-visual {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: white;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+}
+
+.signup-visual img {
+    height: 700px;
+    width: auto;
+    max-width: 800px;
+    border-radius: 0 10px 10px 0;
+}
+
+.Signupbutton
+{
+    width: 100px;
+    height: 40px;
+    margin-left: 150px ;
+    text-decoration:none ;
+    color: white;
+}

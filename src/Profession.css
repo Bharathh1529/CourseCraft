@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.background-image-container {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    padding: 40px 20px;
+    height: 100vh;
+    width: 100%;
+}
+.SystemEnrolled {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.SystemEnrolled h1 {
+    font-size: 2rem;
+    color: #31304D;/* Ensure the heading is visible */
+}
+
+.enrollment-section {
+    background-image: url('./ProfBackground.jpg'); /* Make sure the path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: #1F1F2D;
+    box-sizing: border-box;
+    height: 400px;
+    width: 500px; /* Include padding in the element's total width and height */
+}
+.enrollment-options {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Increased spacing for better clarity */
+}
+
+.enrollment-button {
+    background-color: #007BFF; /* Button color */
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+}
+.enrollment-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,121 @@
+/* Ensure this CSS is in your Header.css file */
+.navbar {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161A30;
+    color: #B6BBC4;
+    height: 70px;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo_left {
+    left: 0;
+    margin-left: 0;
+}
+
+.navbar-logo {
+    width: 80px;
+    height: 75px;
+    color: white;
+    margin: 0;
+    left: 0;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px ;
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links li {
+    position: relative;
+    margin-left: 20px;
+}
+
+.navbar-links li a {
+    font-size: 17px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+    color: white;
+    background-color: #0056b3;
+    width: fit-content;
+}
+
+.profession-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #161A30;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.profession-dropdown a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.profession-dropdown a:hover {
+    background-color: #0056b3;
+}
+
+.user-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #161A30;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.user-dropdown button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.user-dropdown button:hover {
+    background-color: #0056b3;
+}
+
+.navbar-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.user-name
+{
+    margin-left: 10px;
+}

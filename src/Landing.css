@@ -1,0 +1,92 @@
+.landing
+{
+    background-color: #f0f2f5;
+}
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    border: 1px solid white;
+    margin-top: 70px;
+}
+
+.landing-content, .landing-image {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 50px;
+background-color: white;
+border-radius: 10px 0 0 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.landing-content {
+    border-radius:  10px 0 0 10px ;
+    max-width: 600px; /* Ensures the text section doesn't get too wide */
+}
+
+.landing-content h1 {
+    font-size: 2.5rem;
+    color: #31304D;
+    margin-bottom: 20px;
+}
+
+.landing-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.landing-content .mission {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #004494;
+    transform: translateY(-3px);
+}
+
+/* Image section */
+.landing-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Removed padding for a cleaner look */
+    background: rgb(211, 15, 15);
+    overflow: hidden;
+    border-radius: 0 10px 10px 0;
+    max-width: 794px;
+}
+
+.landing-image img {
+    width: 100%; /* Ensures the image covers the entire container width */
+    height: 100%; /* Ensures the image covers the entire container height */
+    object-fit: cover; 
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

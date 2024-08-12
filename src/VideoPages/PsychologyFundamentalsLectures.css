@@ -1,0 +1,72 @@
+.psychology-video-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 60px;
+  }
+  
+  .psychology-video-main-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .psychology-video-sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+  }
+  
+  .psychology-video-course-outline {
+    margin-bottom: 20px;
+  }
+  
+  .psychology-video-course-outline h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* List styling for course outline */
+  .psychology-video-course-outline ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .psychology-video-course-outline li {
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .psychology-video-course-outline li:hover,
+  .psychology-video-course-outline li.active {
+    background-color: #ddd;
+  }
+  
+  /* Video section styling */
+  .psychology-video-section {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .psychology-video-container {
+    width: 100%;
+    height: 450px; /* Adjust height based on your design requirements */
+    margin-bottom: 20px;
+  }
+  
+  .psychology-video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove iframe border */
+  }
+  
+  /* Video description styling */
+  .psychology-video-description {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  

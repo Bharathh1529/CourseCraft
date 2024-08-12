@@ -1,0 +1,85 @@
+/* AddCourse.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.add-course-layout {
+    display: flex;
+    height: 100vh;
+}
+
+.add-course-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.add-course-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.Form {
+    width: 50%;
+    background-color: white;
+    height: 80%;
+}
+
+.add-course-form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 60px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
